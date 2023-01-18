@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from './profile.module.css';
 
 
-// Component Profile
+// Component Profile new
 
 
 function Profile( {username,avatar,tag,stats:{followers,views,likes}}) {
