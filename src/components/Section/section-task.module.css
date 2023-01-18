@@ -1,0 +1,9 @@
+.section {
+  background-color: tomato;
+  color:antiquewhite;
+  padding: 10px 14px;
+}
+
+.title{
+  font-size: 2rem;
+}

@@ -1,0 +1,89 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+
+  width: 500px;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 0 6px rgba(0, 0, 0, 0.25);
+}
+
+.description {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.thumb {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: teal;
+  /* margin-bottom: 40px; */
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  /* width: 100%; */
+  object-fit: cover;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.name {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.tag,
+.location {
+  font-size: 32px;
+  opacity: 0.6;
+}
+
+/* ==============Stats============== */
+
+.stats {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 30px;
+  border: 1px solid rgb(213, 206, 206);
+  background-color: rgb(213, 206, 206, 0.7);
+}
+
+.label {
+  font-size: 24px;
+  opacity: 0.6;
+}
+
+.quantity {
+  font-weight: 700;
+  font-size: 22px;
+}

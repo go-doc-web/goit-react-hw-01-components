@@ -1,0 +1,31 @@
+.transaction_history {
+  margin-top: 50px;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+.head_th {
+  padding: 15px;
+  width: 300px;
+  background-color: rgb(108, 108, 222);
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.body_td {
+  padding: 15px;
+  font-size: 24px;
+  width: 300px;
+  text-align: center;
+}
+
+.td_type {
+  text-transform: capitalize;
+}
+
+.tbody_td:nth-child(2n) {
+  background-color: rgb(197, 181, 181);
+}
